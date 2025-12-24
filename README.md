@@ -22,7 +22,7 @@
 ## 📱 Requirements for Android Device
 1. 🔓 Android phone/tablet (rooted recommended for best results)
 2. 🛠️ Mitmproxy or Reqable App or Burp Suite
-3. 🔄 Magisk/LSPosed (for system-level certificate installation)
+3. 🔄 Magisk/KernalSU (for system-level certificate installation)
 
 ## 🔧 Installation Process
 1. 📥 Download and install the modified APK
