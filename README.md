@@ -1,14 +1,15 @@
 # 🔐 Messenger-SSL-Pinning-Bypass
 📡 Intercept Messenger network traffic on Android device
 
-## 📌 Latest Bypassed & Tested App Version
-- 🎯 Messenger version: **553.0.0.56.55**
+## 📌 Latest Bypassed and Tested App Details
+- App version: **553.0.0.56.55**
 - Architecture: **arm64-v8a, X86_64**
+- Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Burp Suite](https://portswigger.net/burp), [HTTP Toolkit](https://httptoolkit.com/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/DarknessKing999](https://t.me/DarknessKing999)
 
 ## 🎥 Evidence
-![Messenger Android Data](assets/v553.jpg)
-![Messenger API Response](assets/response.png)
+![Messenger Android](assets/v553.jpg)
+![Response](assets/response.png)
 
 ## ✅ Other Apps
 1. [Messenger iOS](https://github.com/shajon-dev/iOS-Messenger-SSL-Pinning-Bypass)
@@ -20,25 +21,37 @@
 7. [Threads iOS](https://github.com/shajon-dev/iOS-Threads-SSL-Pinning-Bypass)
 8. [Business Suite Android](https://github.com/shajon-dev/Meta-Business-Suit-SSL-Pinning-Bypass)
 
-## 📱 Requirements
-1. 🔓 Rooted Android phone/tablet (root access required)
-2. 🛠️ ADB tools installed on your computer
-3. 🔄 ProxyPin or Reqable App for traffic capture
-
-## 🔧 Setup Process
- 1. 🔧 **Replace patched `libcoldstart.so`** with the original file at: `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`
- 2. 📲 **Use ADB command** to push the patched library:
-    ```
-    adb push D:\patched\libcoldstart.so /data/data/com.facebook.orca/lib-compressed/libcoldstart.so
-    ```
- 4. Use any packet capture tool to monitor Facebook network traffic.
-
 ## 📦 For Demo - Download Official APKs
-**📥 Download Messenger 500.1.0.71.108 from official sources:**
-
-- **🔧 arm64-v8a (64-bit):** [https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-500-1-0-71-108-release/facebook-messenger-500-1-0-71-108-30-android-apk-download/](https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-500-1-0-71-108-release/facebook-messenger-500-1-0-71-108-30-android-apk-download/)
-
-- **🔧 x86_64 (64-bit emulator):** [https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-500-1-0-71-108-release/facebook-messenger-500-1-0-71-108-11-android-apk-download/](https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-500-1-0-71-108-release/facebook-messenger-500-1-0-71-108-11-android-apk-download/)
+  - For any issues, contact me on Telegram. Read README.md carefully before use.
+  - Latest version is not free.
+<table width="100%">
+  <thead>
+    <tr>
+      <th rowspan="2" align="center">Package Name</th>
+      <th rowspan="2" align="center">Version</th>
+      <th rowspan="2" align="center">Status</th>
+      <th colspan="2" align="center">Download Link</th>
+    </tr>
+    <tr>
+      <th align="center">arm64-v8a</th>
+      <th align="center">X86_64</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" align="center"><code>com.facebook.orca</code></td>
+      <td align="center">553.0.0.56.55</td>
+      <td align="center">✅ Bypassed</td>
+      <td colspan="2" align="center"><a href="https://t.me/DarknessKing999">Contact Telegram</a></td>
+    </tr>
+    <tr>
+      <td align="center">500.1.0.71.108</td>
+      <td align="center">✅ Bypassed</td>
+      <td align="center"><a href="https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-500-1-0-71-108-release/facebook-messenger-500-1-0-71-108-30-android-apk-download/">Download Link</a></td>
+      <td align="center"><a href="https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-500-1-0-71-108-release/facebook-messenger-500-1-0-71-108-11-android-apk-download/">Download Link</a></td>
+    </tr>
+  </tbody>
+</table>
 
 **📂 Free Patched `libcoldstart.so` files are available in the `libs/` folder**
 **📜 Consolidated login scripts are available in the `login.sh` file**
@@ -53,6 +66,18 @@ If this project helped you, consider buying me a coffee! ❤️
 | <table border="0" cellpadding="0" cellspacing="0"><tr><td><img src="https://cryptologos.cc/logos/ethereum-eth-logo.svg" width="20" /></td><td>&nbsp;<b>ANY Crypto</b></td></tr></table> | ETH / BSC | `0x22d4f314acbf6055b0a37df8df68f9cd40ba889a` |
 | <table border="0" cellpadding="0" cellspacing="0"><tr><td><img src="https://cryptologos.cc/logos/bitcoin-btc-logo.svg" width="20" /></td><td>&nbsp;<b>BTC</b></td></tr></table> | Bitcoin Network | `14RYf4pw7v2rtttLxRch2StjFzFAn9ycCE` |
 
+## 📱 Requirements
+1. 🔓 Rooted Android phone or Emulator with root access (LDPlayer 9 / Nox Player)
+2. 🛠️ ADB tools required for real devices only. Or use [MT Manager](https://mt2.cn/) to replace the .so file on the device.
+3. 🔄 Tools for traffic capture: [Mitmproxy](https://mitmproxy.org/), [Burp Suite](https://portswigger.net/burp), [HTTP Toolkit](https://httptoolkit.com/), [Reqable](https://reqable.com/).
+
+## 🔧 Setup Process
+ 1. 🔧 **Replace patched `libcoldstart.so`** with the original file at: `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`
+ 2. 📲 **Use ADB command** to push the patched library:
+    ```
+    adb push D:\patched\libcoldstart.so /data/data/com.facebook.orca/lib-compressed/libcoldstart.so
+    ```
+ 4. Use any packet capture tool to monitor Messenger network traffic.
 
 ## Looking for leatest version patched `libcoldstart.so`? Contact me on Telegram
 <p align="left">
