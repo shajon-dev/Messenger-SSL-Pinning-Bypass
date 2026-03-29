@@ -3,7 +3,7 @@
 
 ## 📌 Latest Bypassed and Tested App Details
 - App version: **553.0.0.56.55**
-- Architecture: **arm64-v8a, X86_64**
+- Architecture: **arm64-v8a, x86_64**
 - Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Burp Suite](https://portswigger.net/burp), [HTTP Toolkit](https://httptoolkit.com/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/DarknessKing999](https://t.me/DarknessKing999)
 
@@ -34,7 +34,7 @@
     </tr>
     <tr>
       <th align="center">arm64-v8a</th>
-      <th align="center">X86_64</th>
+      <th align="center">x86_64</th>
     </tr>
   </thead>
   <tbody>
@@ -75,7 +75,7 @@ If this project helped you, consider buying me a coffee! ❤️
  1. 🔧 **Replace patched `libcoldstart.so`** with the original file at: `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`
  2. 📲 **Use ADB command** to push the patched library:
     ```
-    adb push D:\patched\libcoldstart.so /data/data/com.facebook.orca/lib-compressed/libcoldstart.so
+    adb push [YOUR_libcoldstart.so_PATH] /data/data/com.facebook.orca/lib-compressed/libcoldstart.so
     ```
  4. Use any packet capture tool to monitor Messenger network traffic.
 
