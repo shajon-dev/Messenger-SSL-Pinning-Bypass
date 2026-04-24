@@ -2,13 +2,13 @@
 📡 Intercept Messenger network traffic on Android device
 
 ## 📌 Latest Bypassed and Tested App Details
-- App version: **556.0.0.59.68**
+- App version: **557.0.0.53.76**
 - Architecture: **arm64-v8a, armeabi-v7a, x86, x86_64**
 - Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Burp Suite](https://portswigger.net/burp), [HTTP Toolkit](https://httptoolkit.com/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/DarknessKing999](https://t.me/DarknessKing999)
 
 ## 🎥 Evidence
-![Messenger Android](assets/v556.jpg)
+![Messenger Android](assets/v557.jpg)
 ![Response](assets/response.png)
 
 ## ✅ Other Apps
@@ -41,7 +41,7 @@
   <tbody>
     <tr>
       <td rowspan="2" align="center"><code>com.facebook.orca</code></td>
-      <td align="center">556.0.0.59.68</td>
+      <td align="center">557.0.0.53.76</td>
       <td align="center">✅ Bypassed</td>
       <td align="center">Yes</td>
       <td colspan="2" align="center"><a href="https://t.me/DarknessKing999">Contact Telegram</a></td>
