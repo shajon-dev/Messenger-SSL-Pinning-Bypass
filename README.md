@@ -9,7 +9,6 @@
 
 ## 🎥 Evidence
 ![Messenger Android](assets/v560.jpg)
-![Response](assets/response.png)
 
 ## ✅ Other Apps
 1. [Messenger iOS](https://github.com/shajon-dev/iOS-Messenger-SSL-Pinning-Bypass)
