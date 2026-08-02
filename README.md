@@ -2,13 +2,13 @@
 📡 Intercept Messenger network traffic on Android device
 
 ## 📌 Latest Bypassed and Tested App Details
-- App version: **570.0.0.2.87**
+- App version: **573.0.0.7.88**
 - Architecture: **arm64-v8a, armeabi-v7a, x86, x86_64**
 - Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/SHAJON](https://t.me/SHAJON)
 
 ## 🎥 Evidence
-![Messenger Android](assets/v570.jpg)
+![Messenger Android](assets/v573.jpg)
 
 ## ✅ Other Apps
 1. [Messenger iOS](https://github.com/shajon-dev/iOS-Messenger-SSL-Pinning-Bypass)
@@ -19,6 +19,8 @@
 6. [Threads Android](https://github.com/shajon-dev/Threads-SSL-Pinning-Bypass)
 7. [Threads iOS](https://github.com/shajon-dev/iOS-Threads-SSL-Pinning-Bypass)
 8. [Business Suite Android](https://github.com/shajon-dev/Meta-Business-Suit-SSL-Pinning-Bypass)
+9. [Business Suite iOS](https://github.com/shajon-dev/iOS-Meta-Business-Suit-SSL-Pinning-Bypass)
+10. [TikTok iOS](https://github.com/shajon-dev/iOS-TikTok-SSL-Pinning-Bypass)
 
 ## 📦 For Demo - Download Official APKs
   - For any issues, contact me on Telegram. Read README.md carefully before use.
@@ -40,7 +42,7 @@
   <tbody>
     <tr>
       <td rowspan="2" align="center"><code>com.facebook.orca</code></td>
-      <td align="center">570.0.0.2.87</td>
+      <td align="center">573.0.0.7.88</td>
       <td align="center">✅ Bypassed</td>
       <td align="center">No</td>
       <td colspan="2" align="center"><a href="https://t.me/SHAJON">Contact Telegram</a></td>
