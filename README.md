@@ -10,7 +10,7 @@
 ---
 
 ## 📌 Latest Bypassed and Tested App Details
-- App version: **577.0.0.29.89**
+- App version: **581.0.0.49.91**
 - Architecture: **arm64-v8a, armeabi-v7a, x86, x86_64**
 - Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/SHAJON](https://t.me/SHAJON)
@@ -18,7 +18,7 @@
 ---
 
 ## 🎥 Evidence
-![Messenger Android](assets/v577.jpg)
+![Messenger Android](assets/v581.jpg)
 
 ---
 
@@ -59,7 +59,7 @@
   <tbody>
     <tr>
       <td rowspan="3" align="center"><code>com.facebook.orca</code></td>
-      <td align="center">577.0.0.29.89</td>
+      <td align="center">581.0.0.49.91</td>
       <td align="center">✅ Bypassed</td>
       <td align="center">✅ Yes</td>
       <td colspan="4" align="center"><a href="https://t.me/SHAJON">Contact Telegram</a></td>
